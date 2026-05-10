@@ -214,11 +214,11 @@ export default {
       this.selectedTool = null
     },
 
-deselectAll(e) {
-  if (e.target === this.$refs.canvas) {
-    this.selectedObjectId = null
-  }
-},
+    deselectAll(e) {
+      if (e.target === this.$refs.canvas) {
+        this.selectedObjectId = null
+      }
+    },
 
     moveObject(data) {
       const obj = this.objects.find(o => o.id === data.id)

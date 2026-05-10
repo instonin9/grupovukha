@@ -40,6 +40,8 @@ cd grupovukha
 
 ### 2. Установка зависимостей
 
+С двух терминалов напишите команды:
+
 Бэкенд:
 ```bash
 cd server
@@ -48,7 +50,7 @@ npm install
 
 Фронтенд:
 ```bash
-cd client/realtime-board-frontend
+cd client
 npm install
 ```
 
@@ -77,26 +79,25 @@ feature/frontend-board — разработка фронтенда
 ```bash
 grupovukha/
 ├── client/
-│   └── realtime-board-frontend/
-│       ├── index.html
-│       ├── package.json
-│       ├── package-lock.json
-│       ├── vite.config.js
-│       ├── .gitignore
-│       ├── README.md
-│       └── src/
-│           ├── main.js
-│           ├── App.vue
-│           ├── style.css
-│           ├── api/
-│           │   └── boardApi.js
-│           ├── socket/
-│           │   └── socket.js
-│           └── components/
-│               ├── BoardList.vue
-│               ├── Board.vue
-│               ├── Toolbar.vue
-│               └── BoardObject.vue
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   ├── .gitignore
+│   ├── README.md
+│   └── src/
+│       ├── main.js
+│       ├── App.vue
+│       ├── style.css
+│       ├── api/
+│       │   └── boardApi.js
+│       ├── socket/
+│       │   └── socket.js
+│       └── components/
+│           ├── BoardList.vue
+│           ├── Board.vue
+│           ├── Toolbar.vue
+│           └── BoardObject.vue
 │
 ├── server/
 │   ├── server.js
